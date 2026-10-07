@@ -46,10 +46,11 @@ The form stores enquiries and returns a receipt reference. Without configured st
 ## Campaign documents
 
 - [Product brief](docs/product-brief.md)
+- [Current pricing update](docs/pricing-update-2026-10-07.md)
 - [Campaign kit](docs/campaign-kit.md)
 - [Pricing study](docs/zlendo-pricing-study-2026-10-06.html)
 - [Verification report](docs/verification-report.md)
 
-The annual base supplied by the user is **80,000 INR**. Local equivalents are indicative and dated. Rendering and cost estimation incur additional charges. API inclusions, usage rates, trial terms, enquiry notification destination, final language review and founder approval remain pending. The page retains its review banner and `noindex` metadata.
+The annual base supplied by the user is **28,899 INR**. Local equivalents are indicative and dated. Rendering and cost estimation incur additional charges. API inclusions, usage rates, trial terms, enquiry notification destination, final language review and founder approval remain pending. The page retains its review banner and `noindex` metadata.
 
 The hero's 2D capture and 3D illustration depict different projects and are labelled accordingly. They are not evidence of an actual API conversion. No product rendering endpoint is connected to this landing page.

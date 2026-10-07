@@ -1,5 +1,7 @@
 # Zlendo Realty — Focused Campaign Kit
 
+**Price update — 7 October 2026:** The user changed the annual base to 28,899 INR, one INR below Coohom Pro’s current published Indian annual price of 28,900 INR. Rendering and cost-estimation charges remain additional. See [pricing update](pricing-update-2026-10-07.md).
+
 Prepared 6 October 2026. Sources: user-supplied product and commercial details, official public product pages, and the implementation checks listed in the verification report. This is an initial sales motion, not a CRM opportunity or a completed customer evaluation.
 
 ## Audience and positioning
@@ -48,7 +50,7 @@ Recommended sequence: approve the brief → finalize commercial details → veri
 | --- | --- | --- |
 | Zlendo Realty product name | User and official website | Supplied; founder identity not confirmed |
 | 2D-to-3D rendering business API | User; official API suite page | Supplied; precise scope pending |
-| 80,000 INR/year for architects and builders | User reply | INR confirmed; taxes and API scope pending |
+| 28,899 INR/year for architects and builders | User reply | INR confirmed; taxes and API scope pending |
 | Unlimited plans, 2D/3D views, 360° walkthroughs, AI inspiration | User reply | API availability and conditions pending |
 | Rendering / cost estimation have additional charges | User reply | Rates and metering pending |
 | Input and output formats | Official API page has general descriptions | Exact supported list pending |

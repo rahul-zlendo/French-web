@@ -1,5 +1,7 @@
 # Zlendo Realty — Product Brief
 
+**Price update — 7 October 2026:** The user changed the annual base to 28,899 INR, one INR below Coohom Pro’s current published Indian annual price of 28,900 INR. Rendering and cost-estimation charges remain additional. See [pricing update](pricing-update-2026-10-07.md).
+
 **Campaign:** French demo campaign for Morocco and Mauritius; a small Spain test comes later. **Status:** review draft, 6 October 2026. Founder sign-off has not been received.
 
 **Product and website:** Zlendo Realty; [official website](https://zlendorealty.com) and [API suite](https://zlendorealty.com/products/api-suite). The user describes the offer as a business API for converting 2D plans to 3D and rendering.
@@ -10,7 +12,7 @@
 
 **Three benefits to demonstrate, rather than promise:** (1) help clients understand the proposed space through 3D views; (2) prepare useful presentation material from an existing plan; (3) integrate this workflow into the firm's tools through the API. Validate each on a real, authorized sample. No speed, accuracy, revenue or savings guarantee is claimed.
 
-**User-supplied offer:** 80,000 INR per year for architects and builders. Unlimited plans, 2D/3D views, 360° walkthroughs and AI inspiration. Rendering and cost estimation incur additional charges. Taxes, metering, fair-use conditions and whether this annual package includes API usage remain unresolved. Currency was confirmed as INR in the latest user reply. Indicative annual equivalents: 8,295 MAD, 39,770 MUR and €741 (XE, 5 October 2026, 16:00 UTC); local billing and taxes remain to be confirmed.
+**User-supplied offer:** 28,899 INR per year for architects and builders. Unlimited plans, 2D/3D views, 360° walkthroughs and AI inspiration. Rendering and cost estimation incur additional charges. Taxes, metering, fair-use conditions and whether this annual package includes API usage remain unresolved. Currency was confirmed as INR in the latest user reply. Indicative annual equivalents: 2,987 MAD, 14,215 MUR and €266 (XE, 6 October 2026, 16:00 UTC); local billing and taxes remain to be confirmed.
 
 **Supported features:** the above feature list is supplied by the user. The public API page describes conversion and rendering. Exact API endpoints, input/output formats, API availability of each feature and limits still require founder approval. General platform features must not be assumed to be API features.
 
