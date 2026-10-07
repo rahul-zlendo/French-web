@@ -1,0 +1,12 @@
+{
+  "name": "zlendo-realty-fr-campaign",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node work/create-site.mjs && node scripts/check-vercel.mjs",
+    "build:vercel": "node work/create-site.mjs && node scripts/check-vercel.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.8.1"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.env*
+!.env.example
+work/pages.json
+work/local-enquiries/
+.codegraph/
+dist/
+*.log
