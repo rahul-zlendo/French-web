@@ -1,4 +1,5 @@
 import {readFileSync} from 'node:fs';
+import {localizeMorocco} from './morocco.mjs';
 
 export function enhancePage(t, page, images, screenshots) {
   const fr=t.lang==='fr';
@@ -38,7 +39,7 @@ export function enhancePage(t, page, images, screenshots) {
   page=page.replace('</header>','</header><div class="scroll-progress" aria-hidden="true"></div>');
   page=page.replace('</style>',style+'</style>');
   page=page.replace('</body>',`<script>${interaction(fr)}</script></body>`);
-  return page;
+  return localizeMorocco(page, fr);
 }
 
 const style=`

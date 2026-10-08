@@ -1,6 +1,6 @@
 # Zlendo Realty — French landing page
 
-French demo campaign for architects, interior design firms and builders in Morocco and Mauritius. The Spanish page is prepared for a later, smaller test.
+French demo campaign focused on architects, interior design firms and builders in Morocco, with enquiries from Mauritius also welcome. The Spanish page is prepared for a later, smaller test.
 
 The single-page design uses the supplied Zlendo Realty logo, an interactive 2D/3D illustration reveal, floating cards, scroll animations, real product screenshots and indicative local-currency pricing. It respects reduced-motion preferences. All conversion actions lead to the live-demo enquiry form.
 
@@ -11,7 +11,7 @@ npm ci
 npm run build
 ```
 
-The build generates `public/index.html` and `public/es.html` from `work/create-site.mjs` and `work/design.mjs`. Images are embedded in the generated pages. Edit the generator and design source, then rebuild.
+The build generates `public/index.html` and `public/es.html` from `work/create-site.mjs`, `work/design.mjs` and `work/morocco.mjs`. Images are embedded in the generated pages. Edit the generator and design source, then rebuild.
 
 To preview the static page locally:
 
@@ -45,12 +45,13 @@ The form stores enquiries and returns a receipt reference. Without configured st
 
 ## Campaign documents
 
+- [Morocco launch plan](docs/morocco-launch-plan.md)
 - [Product brief](docs/product-brief.md)
 - [Current pricing update](docs/pricing-update-2026-10-07.md)
 - [Campaign kit](docs/campaign-kit.md)
 - [Pricing study](docs/zlendo-pricing-study-2026-10-06.html)
 - [Verification report](docs/verification-report.md)
 
-The annual base supplied by the user is **28,899 INR**. Local equivalents are indicative and dated. Rendering and cost estimation incur additional charges. API inclusions, usage rates, trial terms, enquiry notification destination, final language review and founder approval remain pending. The page retains its review banner and `noindex` metadata.
+The annual base supplied by the user is **28,899 INR**. Local equivalents are indicative and dated. Rendering and cost estimation incur additional charges. API inclusions, usage rates, evaluation terms and enquiry notifications need to be specified for each evaluation. The French page is public-facing, with Morocco-focused copy, MAD as the initial indicative price, optional city and phone fields, search metadata, robots.txt and sitemap.xml. The review banner has been removed. Spanish remains excluded from indexing for the later test. The direct contact is Zlendo Realty’s published support email; no WhatsApp number or booking service is configured.
 
 The hero's 2D capture and 3D illustration depict different projects and are labelled accordingly. They are not evidence of an actual API conversion. No product rendering endpoint is connected to this landing page.

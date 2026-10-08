@@ -1,5 +1,6 @@
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {enhancePage} from './design.mjs';
+import {siteOrigin} from './morocco.mjs';
 const image=name=>'data:image/webp;base64,'+readFileSync('work/assets/'+name+'.webp').toString('base64');
 const images={before:image('before'),after:image('after'),presentation:image('presentation')};
 const screenshots=['ui-2d','ui-3d','ui-render'].map(name=>'data:image/png;base64,'+readFileSync('work/assets/'+name+'.png').toString('base64'));
@@ -20,3 +21,5 @@ es.priceNote=es.priceNote.replace('28 899 al año','28 899 INR al año').replace
 const pages={fr:enhancePage(fr,finalPage(fr),images,screenshots),es:enhancePage(es,finalPage(es),images,screenshots)};
 mkdirSync('public',{recursive:true});writeFileSync('public/index.html',pages.fr);writeFileSync('public/es.html',pages.es);
 writeFileSync('work/pages.json',JSON.stringify(pages));
+writeFileSync('public/robots.txt', `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /es.html\nSitemap: ${siteOrigin}/sitemap.xml\n`);
+writeFileSync('public/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${siteOrigin}/</loc></url></urlset>`);

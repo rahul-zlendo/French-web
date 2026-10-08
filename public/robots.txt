@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /es.html
+Sitemap: https://zlendo-realty-fr-demo.vabsit2020.chatgpt.site/sitemap.xml
